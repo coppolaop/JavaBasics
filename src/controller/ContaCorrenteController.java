@@ -1,8 +1,8 @@
 package controller;
 
-import entity.ContaCorrente;
+import Aulas.ContaCorrenteAula1;
 
-public class ContaCorrenteController extends ContaCorrente {
+public class ContaCorrenteController extends ContaCorrenteAula1 {
 
     public static void main(String[] args) {
         //AULA 2

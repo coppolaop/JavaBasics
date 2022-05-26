@@ -1,6 +1,6 @@
-package entity;
+package Aulas;
 
-public class ContaCorrente {
+public class ContaCorrenteAula1 {
 
     Integer numeroDaConta;
     public Double saldo;

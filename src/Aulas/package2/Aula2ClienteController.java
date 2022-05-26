@@ -1,11 +1,11 @@
-package controller;
+package Aulas.package2;
 
-import entity.Cliente;
+import Aulas.Aula2Cliente;
 
-public class ClienteController {
+public class Aula2ClienteController {
 
     public static void main(String[] args) {
-        Cliente cliente = new Cliente();
+        Aula2Cliente cliente = new Aula2Cliente();
 
         cliente.setIdCliente(3);
 
