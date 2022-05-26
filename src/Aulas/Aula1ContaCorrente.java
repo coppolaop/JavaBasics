@@ -1,6 +1,6 @@
 package Aulas;
 
-public class ContaCorrenteAula1 {
+public class Aula1ContaCorrente {
 
     Integer numeroDaConta;
     public Double saldo;

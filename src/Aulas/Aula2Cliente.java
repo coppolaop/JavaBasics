@@ -37,7 +37,7 @@ public class Aula2Cliente {
         Aula2Cliente cliente = new Aula2Cliente(1, 111111, "Pedro", "21");
         System.out.println(cliente.nome);
 
-        ContaCorrenteAula1 conta = new ContaCorrenteAula1();
+        Aula1ContaCorrente conta = new Aula1ContaCorrente();
 
         System.out.println(conta.numeroDaConta); //FUNCIONOU
         System.out.println(conta.saldo); //FUNCIONOU

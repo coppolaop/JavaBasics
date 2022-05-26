@@ -3,35 +3,30 @@ package entity;
 public abstract class Pessoa {
 
     private String nome;
+    private String cpf;
 
-    public void setNome(String nome) {
+    public Pessoa() {
+
+    }
+
+    public Pessoa(String nome, String cpf) {
         this.nome = nome;
+        this.cpf = cpf;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public static void testePassagem2(Pessoa pessoa){
-        pessoa.nome = "Mateus";
-    }
-    public static void testePassagem(String nome){
-        nome = "Mateus";
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public static void main(String[] args) {
-        String nome = "Juliano";
-        testePassagem(nome);
-        System.out.println(nome);
+    public String getCpf() {
+        return cpf;
+    }
 
-//        Pessoa pessoa = new Pessoa();
-//        pessoa.nome = "Renan";
-//        testePassagem2(pessoa);
-//        System.out.println(pessoa.nome);
-//
-//        Pessoa pessoa2 = pessoa;
-//        testePassagem2(pessoa);
-//        System.out.println(pessoa.nome);
-//        System.out.println(pessoa2.nome);
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 }
