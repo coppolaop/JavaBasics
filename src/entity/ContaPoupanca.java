@@ -1,14 +1,14 @@
 package entity;
 
-public class ContaPupanca extends Conta {
+public class ContaPoupanca extends Conta {
     private Double rendimentos;
 
-    public ContaPupanca(Integer agencia, Integer numero, Double saldo, Cliente dono, Double rendimentos) {
+    public ContaPoupanca(Integer agencia, Integer numero, Double saldo, Cliente dono, Double rendimentos) {
         super(agencia, numero, saldo, dono);
         this.rendimentos = rendimentos;
     }
 
-    public ContaPupanca() {
+    public ContaPoupanca() {
     }
 
     public Double getRendimentos() {
