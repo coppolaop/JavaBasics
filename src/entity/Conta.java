@@ -1,6 +1,6 @@
 package entity;
 
-public class Conta {
+public abstract class Conta {
     private Integer agencia;
     private Integer numero;
     private Double saldo;

@@ -2,6 +2,7 @@ package Aulas;
 
 import entity.Cliente;
 import entity.Conta;
+import entity.ContaCorrente;
 import entity.Telefone;
 
 import java.util.ArrayList;
@@ -33,7 +34,7 @@ public class Aula4Cliente extends Aula4Pessoa implements Aula4Motorista {
         Telefone telefoneFixo = new Telefone(21,344,false);
         telefones.add(telefoneFixo);
         Cliente cliente2 = new Cliente("Marcos", "111", true, telefones);
-        Conta conta = new Conta(001, 001, 0.0, cliente2);
+        Conta conta = new ContaCorrente(001, 001, 0.0, cliente2, 10.);
 
         System.out.println(conta.getDono().getTelefones().get(0).getNumero());
     }
