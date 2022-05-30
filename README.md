@@ -9,6 +9,6 @@ Para acompanhar o conteúdo que foi fornecido nessas aulas, utilize os cards des
 * [Aula 4](https://github.com/coppolaop/JavaBasics/issues/4)
 * [Aula 5](https://github.com/coppolaop/JavaBasics/issues/5)
 
-# Projeto final apresentado
+## Projeto final apresentado
 
 ![Diagrama de Classes](/img/DiagramaDeClasses.png)
